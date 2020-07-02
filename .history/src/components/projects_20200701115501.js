@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tab } from "react-mdl";
+//import { Tab } from
 
 class Projects extends Component {
   constructor(props) {
@@ -24,21 +24,21 @@ class Projects extends Component {
   }
 
   render() {
-    return (
-      <div className="category-tabs">
-        <Tab
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
-        ></Tab>
-        <Tab>React</Tab>
-        <Tab>Ruby on Rails</Tab>
-        <Tab>JavaScript</Tab>
-        <Tab>React</Tab>
-        <h1>Projects</h1>
-      </div>
-    );
-  }
+  //   return (
+  //     <div className="category-tabs">
+  //       <Tabs
+  //         activeTab={this.state.activeTab}
+  //         onChange={(tabId) => this.setState({ activeTab: tabId })}
+  //         ripple
+  //       ></Tabs>
+  //       <Tab>React</Tab>
+  //       <Tab>Ruby on Rails</Tab>
+  //       <Tab>JavaScript</Tab>
+  //       <Tab>React</Tab>
+  //       <h1>Projects</h1>
+  //     </div>
+  //   );
+  // }
 }
 
 export default Projects;

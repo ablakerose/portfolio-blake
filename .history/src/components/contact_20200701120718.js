@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "/components/App.css";
 
 class Contact extends Component {
   render() {
@@ -7,8 +7,7 @@ class Contact extends Component {
       <div>
         <h1>Contact</h1>
         <container className="container">
-          <div class="name">Name</div>
-          <div class="email">Email</div>
+          <div></div>
         </container>
       </div>
     );

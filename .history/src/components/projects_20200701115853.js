@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tab } from "react-mdl";
+import { Tabs } from "react-mdl";
 
 class Projects extends Component {
   constructor(props) {
@@ -26,11 +26,11 @@ class Projects extends Component {
   render() {
     return (
       <div className="category-tabs">
-        <Tab
+        <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
-        ></Tab>
+        ></Tabs>
         <Tab>React</Tab>
         <Tab>Ruby on Rails</Tab>
         <Tab>JavaScript</Tab>
