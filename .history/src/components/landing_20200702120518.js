@@ -2,13 +2,17 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import "../App.css";
 
-class LandingPage extends Component {
+class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="" alt="avatar" className="woman-img" />
+            <img
+              src="/Users/blake/Documents/Documents - Blakeley’s MacBook Air/applications/portfolio/portfolio-blake/public/yellow-door-window.jpg"
+              alt="avatar"
+              className="woman-img"
+            />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
@@ -51,4 +55,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default Landing;
