@@ -74,3 +74,8 @@
   font-size: 4em;
   padding: 8px;
 }
+
+.container {
+  color: black;
+  border: 5px solid #ffcc5c;
+}

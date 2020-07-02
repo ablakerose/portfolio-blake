@@ -74,3 +74,19 @@
   font-size: 4em;
   padding: 8px;
 }
+
+.container {
+  color: black;
+  border: 10px solid #ffcc5c;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.name {
+  align-self: flex-start;
+}
+
+.email {
+  align-self: flex-start;
+}
