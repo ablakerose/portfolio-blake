@@ -37,7 +37,7 @@
 }
 
 .banner-text {
-  background-color: white;
+  background-color: gray;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -47,17 +47,17 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .banner-text p {
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
 
 .banner-text hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
@@ -70,7 +70,7 @@
 }
 
 .social-links i {
-  color: black;
+  color: white;
   font-size: 4em;
   padding: 8px;
 }
