@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Tab } from "react-mdl";
 import "../App.css";
-
 class Projects extends Component {
   constructor(props) {
     super(props);

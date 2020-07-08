@@ -26,7 +26,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="category-tabs">
+      <div className="category-tabs" style={{ width: "100%", margin: "auto" }}>
         <Tab
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
