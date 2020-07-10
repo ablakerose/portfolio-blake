@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tabs, Tab } from "react-mdl";
+import { Tabs } from "react-mdl";
 import "../App.css";
 
 class Projects extends Component {

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Tabs, Tab } from "react-mdl";
+import { Tabs } from "react-mdl";
 import "../App.css";
 
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 0 };
+    this.state = { activateTab: 0 };
   }
 
   toggleCategories() {
@@ -27,17 +27,15 @@ class Projects extends Component {
   render() {
     return (
       <div className="category-tabs">
-        <Tabs
+        <Tab
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
-        >
-          <Tab>React</Tab>
-          <Tab>Ruby on Rails</Tab>
-          <Tab>JavaScript</Tab>
-          <Tab>React</Tab>
-        </Tabs>
-
+        ></Tab>
+        <Tab>React</Tab>
+        <Tab>Ruby on Rails</Tab>
+        <Tab>JavaScript</Tab>
+        <Tab>React</Tab>
         <h1>Projects</h1>
       </div>
     );

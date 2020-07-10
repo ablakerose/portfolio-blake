@@ -31,13 +31,11 @@ class Projects extends Component {
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
-        >
-          <Tab>React</Tab>
-          <Tab>Ruby on Rails</Tab>
-          <Tab>JavaScript</Tab>
-          <Tab>React</Tab>
-        </Tabs>
-
+        ></Tabs>
+        <Tab>React</Tab>
+        <Tab>Ruby on Rails</Tab>
+        <Tab>JavaScript</Tab>
+        <Tab>React</Tab>
         <h1>Projects</h1>
       </div>
     );
