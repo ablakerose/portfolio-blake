@@ -45,47 +45,6 @@ class Projects extends Component {
               </CardMenu>
             </CardTitle>
           </Card>
-
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#black",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
-              }}
-            >
-              <CardText>PROJECT 2: This is some card text</CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </CardTitle>
-          </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#black",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
-              }}
-            >
-              <CardText>PROJECT 3: This is some card text</CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </CardTitle>
-          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
